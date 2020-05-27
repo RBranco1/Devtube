@@ -1,0 +1,64 @@
+.logobar{
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.logo{
+  padding:20px;
+  background-color: red ;
+  align-self: center;
+  box-shadow: 1px 4px 10px  black ;
+  border-radius: 10px;
+  margin-left: 3%;
+}
+
+.logo p{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size:30px;
+  line-height:20px;
+  font-weight: 400;
+  color:#ecf0f1;
+}
+
+.searchbar{
+  display: flex;
+  padding:10px;
+  margin: 2%;
+  height: 60px;
+}
+
+.searchbar input{
+  background-color: slategray;
+  border-color: slategray;
+}
+
+.searchbar button{
+  background-color: transparent;
+  border-color: transparent;
+
+  
+}
+
+.searchbar button:active {
+  outline: none;
+  border: none;
+}
+
+.searchbar buttom:hover{
+  cursor: pointer;
+
+}
+
+.searchbar button:focus{
+  outline: none 0;
+}
+
+
+
+
+
+  
+      
+

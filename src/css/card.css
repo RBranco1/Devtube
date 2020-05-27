@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr repeat(12, minmax(auto,60px)) 1fr;
+    grid-gap:40px;
+    padding: 60px 0;
+    /* personalizando todo o espaço das cardview*/
+}
+
+.comum_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    line-height:20px;
+    font-weight: 400;
+    color:#ecf0f1;
+    /* padrão de texto das cardview */
+}
+
+.cards {
+    grid-column: 2 / span 12; /* espaço de cada coluna (12 partes) */
+    display: grid;
+    grid-template-columns: 1fr repeat(10, minmax(auto,60px)) 1fr;
+    grid-gap: 40px;
+
+    /* definindo o espaço de cada card */
+}
+
+.card{
+    grid-column-end: span 3; /* cada card vai ocupar 3 de espaço de cada coluna */
+    display: flex;
+    flex-direction: column;
+    background-color: #44475a;
+    cursor: pointer;
+    transition: all 0.3 ease 0s; 
+    box-shadow: 1px 4px 10px  black ;
+    
+
+    /*personalizando e definindo e espaçõ de cada card */
+}
+
+.card_image{
+    width: 100%;
+    padding-top: 66.25%; 
+    overflow: hidden;
+    position: relative;
+    /*personalizando as imagens */
+}
+
+.card_image img{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*personalizando as imagens */
+}
+
+.card_content {
+ padding: 20px;
+}
+
+.card_title{
+    margin-bottom: 20px;
+}
+
+.card_info{
+    display: flex;
+    align-self: end;
+    align-items: center;
+}
+
+.watch_button{
+    margin-left: auto;
+    padding: 5px 20px;
+    background-color:#ff5555;
+    border-radius: 20px;
+    border-color: #ff5555;
+}
+
+@media only screen and (max-width:1000px){
+    main{
+        grid-gap: 20px;
+    }
+    
+    .card {
+        grid-column: span 6;
+    }
+}
+
+@media only screen and (max-width:700px){
+
+    main{
+        grid-gap: 20px;
+    }
+
+    .card {
+        grid-column: span 12;
+    }
+}
+
+
