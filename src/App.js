@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import Search from './components/search'
+import Search from './components/search';
 import Menu from './components/menu';
-import CardView from './components/CardView'
+import CardView from './components/CardView';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
 
     <Search />
     <Menu /> 
-    <CardView />
+    <CardView/>
 
     </div>
   );

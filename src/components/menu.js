@@ -1,13 +1,14 @@
 import React from 'react';
 import '../css/menu.css';
 
+
 function Menu(){
 
     return(
 
 <div class="menu">
-<ul class="table li">
-    <li> Java </li>
+<ul class="table li" >
+    <li > Java </li>
     <li> Python </li>
     <li> C </li>
     <li> Javascript </li>

@@ -36,7 +36,6 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #44475a;
-    cursor: pointer;
     transition: all 0.3 ease 0s; 
     box-shadow: 1px 4px 10px  black ;
     
@@ -80,8 +79,10 @@ main {
     margin-left: auto;
     padding: 5px 20px;
     background-color:#ff5555;
+    box-shadow:crimson;
     border-radius: 20px;
     border-color: #ff5555;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:1000px){

@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/search.css';
 import search_icon from '../images/search.png';
+import 'semantic-ui-react'
+import Menu from './menu';
 
 
 function Search() {
@@ -20,6 +22,8 @@ function Search() {
         />
 
   <button> <img src={search_icon} /> </button>
+  <button class="login" >Sign in</button>
+  
 
       </div>
     </div>
@@ -29,4 +33,3 @@ function Search() {
 }
 
 export default Search;
-
