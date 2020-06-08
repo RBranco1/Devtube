@@ -4,8 +4,8 @@ import '../css/menu.css';
 
 function Menu(){
 
-    return(
-
+    return(  
+        
 <div class="menu">
 <ul class="table li" >
     <li > Java </li>

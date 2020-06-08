@@ -5,12 +5,14 @@ import Search from './components/search';
 import Menu from './components/menu';
 import CardView from './components/CardView';
 
-function App() {
+function App() { 
+  
   return (
     <div className="App">
 
     <Search />
-    <Menu /> 
+    <Menu />
+
     <CardView/>
 
     </div>
