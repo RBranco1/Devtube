@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/menu.css';
+import {Link} from "react-router-dom";
 
 
 function Menu(){
@@ -9,18 +10,18 @@ function Menu(){
 <div class="menu">
 <ul class="table li" >
     <li > Java </li>
-    <li> Python </li>
-    <li> C </li>
-    <li> Javascript </li>
-    <li> Ruby </li>
-    <li> HTML </li>
-    <li> PHP </li>
-    <li> SQL </li>
-    <li> C# </li>
-    <li> C++ </li>
-    <li> Lua </li>
-    <li> Swift </li>
-    <li> Kotlin </li>
+    <li><Link to="/python"> Python </Link></li>
+    <li><Link to="/c"> C </Link></li>
+    <li><Link to="/js"> Javascript </Link></li>
+    <li><Link to="/ruby"> Ruby </Link></li>
+    <li><Link to="/html"> HTML </Link></li>
+    <li><Link to="/php"> PHP </Link></li>
+    <li><Link to="sql"> SQL </Link></li>
+    <li><Link to="/c#">C# </Link></li>
+    <li><Link to="/c++"> C++ </Link></li>
+    <li><Link to="/lua"> Lua </Link></li>
+    <li><Link to="/swift">Swift </Link></li>
+    <li><Link to="/kotlin"> Kotlin </Link></li>
 
     
 </ul>
