@@ -10,4 +10,6 @@ O Aplicativo baseia-se em uma interface que mostra os cursos mais visualizados d
 -Acesse a pasta pelo terminal
 -npm updata
 -npm start
+-divirta-se!
+
 
