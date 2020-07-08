@@ -20,7 +20,7 @@ const Login = () =>  (
         <i aria-hidden="true" class="shield alternate icon"></i>
         </div>
 
-        <Button color='teal' fluid className="btn_login" >Fazer Login</Button>
+        <Button color="teal" fluid className="btn_login" >Fazer Login</Button>
 
       </Modal.Description>
 
