@@ -2,14 +2,16 @@ O Aplicativo baseia-se em uma interface que mostra os cursos mais visualizados d
 
 ## Depencias usadas 
 
--React
--React-router-dom
--Axios
+- React
+- React-router-dom
+- Axios
 
 ## Para rodar o app
--Acesse a pasta pelo terminal
--npm updata
--npm start
--divirta-se!
+- Acesse a pasta pelo terminal
+- npm updata
+- npm start
+- divirta-se!
+- Ou clique [aqui](https://devtubebr.herokuapp.com/)
+
 
 
